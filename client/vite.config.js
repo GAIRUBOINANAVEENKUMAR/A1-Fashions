@@ -7,7 +7,7 @@ export default defineConfig({
         port: 5173,
         proxy: {
             '/api': {
-                target: 'https://a1-fashions.onrender.com',
+                target: 'http://localhost:5000',
                 changeOrigin: true,
             },
         },
