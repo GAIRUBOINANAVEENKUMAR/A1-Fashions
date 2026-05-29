@@ -34,7 +34,7 @@ const Login = () => {
                     <div className="text-center mb-8">
                         <div className="w-12 h-12 rounded-xl bg-primary-400 flex items-center justify-center text-white font-bold text-xl mx-auto mb-3">S</div>
                         <h1 className="text-2xl font-bold text-dark">Welcome Back</h1>
-                        <p className="text-gray-500 text-sm mt-1">Sign in to your ShopVerse account</p>
+                        <p className="text-gray-500 text-sm mt-1">Sign in to your A1-Store account</p>
                     </div>
 
                     <form onSubmit={handleSubmit} className="space-y-4">
@@ -55,8 +55,8 @@ const Login = () => {
                     <div className="mt-5 bg-gray-50 rounded-lg p-3 border border-gray-100">
                         <p className="text-xs text-gray-500 mb-1.5 font-medium">Demo Accounts:</p>
                         <div className="space-y-0.5 text-xs text-gray-500">
-                            <p>Admin: admin@shopverse.com / admin123</p>
-                            <p>User: user@shopverse.com / user123</p>
+                            <p>Admin: admin@a1-store.com / admin123</p>
+                            <p>User: user@a1-store.com / user123</p>
                         </div>
                     </div>
 

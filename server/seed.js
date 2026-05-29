@@ -160,7 +160,7 @@ const seedDB = async () => {
         // Create admin user
         const admin = await User.create({
             name: 'Admin',
-            email: 'admin@shopverse.com',
+            email: 'admin@a1-store.com',
             password: 'admin123',
             role: 'admin',
         });
@@ -168,7 +168,7 @@ const seedDB = async () => {
         // Create demo user
         await User.create({
             name: 'Demo User',
-            email: 'user@shopverse.com',
+            email: 'user@a1-store.com',
             password: 'user123',
             role: 'user',
         });
@@ -181,8 +181,8 @@ const seedDB = async () => {
         await Coupon.insertMany(sampleCoupons);
 
         console.log('✅ Database seeded successfully!');
-        console.log('   Admin: admin@shopverse.com / admin123');
-        console.log('   User:  user@shopverse.com / user123');
+        console.log('   Admin: admin@a1-store.com / admin123');
+        console.log('   User:  user@a1-store.com / user123');
         console.log('   Coupons: WELCOME10, SAVE20');
         process.exit(0);
     } catch (error) {
